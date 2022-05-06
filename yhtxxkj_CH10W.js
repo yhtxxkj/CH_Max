@@ -1,7 +1,4 @@
 /*
-快手代挂群：696149407
-爱奇艺/网易云代挂群：807898817
-QQ会员签到群：67824781
 */
 let res1 = 'http://kss.elcfq.com/1234.json';
 let res2 = 'http://kss.elcfq.com/123.json';
