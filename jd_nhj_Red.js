@@ -17,7 +17,7 @@ export JD_nhj_rebatePin="pin1,pin2"
 export JD_nhj_redTimes="0"
 0=不限制 1=领取1次
 
-0 0,10,20 * * * https://raw.githubusercontent.com/smiek2121/scripts/master/gua_nhj_Red.js 年货节red
+6 6,6,6 * * * https://raw.githubusercontent.com/smiek2121/scripts/master/gua_nhj_Red.js 年货节red
 
 */
 
