@@ -20,7 +20,7 @@ export opencardSimi="50"
 export opencardLoop="true"
 
 cron: */1 * * * *
-new Env('开卡更新检测')
+new Env('开卡更新检测8.26.2版本')
 """
 
 from notify import send
