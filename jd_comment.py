@@ -5,7 +5,7 @@
 # @File : auto_comment.py
 # 多账号评价，异常处理
 '''
-new Env('自动评价');
+new Env('亿慧通-自动评价私人版');
 8 8 2 10 * https://raw.githubusercontent.com/6dylan6/auto_comment/main/jd_comment.py
 '''
 import argparse
