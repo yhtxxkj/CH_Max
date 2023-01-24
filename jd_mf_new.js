@@ -3,7 +3,7 @@
 mck不稳定，火爆较多，appck嘎嘎跑
 入口：京东app首页-新品-右侧悬浮
 签到 + 任务 + 6魔方3魔方1魔方兑换
-0 0 2 * * https://raw.githubusercontent.com/yhtxxkj/yht_CH/main/jd_mf_new.js
+0 0 0 2 * * https://raw.githubusercontent.com/yhtxxkj/yht_CH/main/jd_mf_new.js
 updatetime:2023/1/17 兑换
  */
 const $ = new Env('京东小魔方');
