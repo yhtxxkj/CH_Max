@@ -19,7 +19,7 @@ export opencardSimi="50"
 #       脚本运行2小时自动停止，定时规则请设置为：0 */2 * * *
 export opencardLoop="true"
 
-cron: */1 * * * *
+cron: 6 6 6 6  *
 new Env('开卡更新检测8.26.2版本')
 """
 
