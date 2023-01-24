@@ -1,6 +1,6 @@
 /**
 过期京豆兑换为物流积分
-cron 33 9 * * * jd_wl.js
+cron  0 0 0 * * jd_wl.js
 
 */
 const $ = new Env('京豆兑换为物流积分');
