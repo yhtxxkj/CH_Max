@@ -1,9 +1,7 @@
 /**
- * 
+cron 6 6 6 6 * * *
  * NO_CK_NOTIFY ，说明未提交京东CK时提醒信息。
- 6 6 6 6 * * *
  * */
-
 const $ = new Env('亿慧通京东资产变动');
 const request = require('request');
 const md5 = require("md5");
