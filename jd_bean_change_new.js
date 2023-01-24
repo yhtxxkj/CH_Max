@@ -1,11 +1,10 @@
 /**
- * 可用环境变量 请通过环境变量添加量子变量
  * 
  * NO_CK_NOTIFY ，说明未提交京东CK时提醒信息。
  * 
  * */
 
-const $ = new Env('京东资产变动');
+const $ = new Env('亿慧通京东资产变动');
 const request = require('request');
 const md5 = require("md5");
 CryptoJS = $.isNode() ? require('crypto-js') : CryptoJS;
