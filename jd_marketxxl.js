@@ -1,6 +1,6 @@
 /*
 超市消消乐游戏
-6 6 6 6 * https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_marketxxl.js
+6 6 6 6 * https://raw.githubusercontent.com/yhtxxkj/yht_CH/main/jd_marketxxl.js
 updatetime: 2023-1-15
 */
 
