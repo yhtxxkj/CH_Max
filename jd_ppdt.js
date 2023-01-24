@@ -1,7 +1,7 @@
 
 /*
 18 10,18 * * * jd_ppdt.js
- */
+ */ 
 
 const $ = new Env('超级品牌殿堂');
 const notify = $.isNode() ? require('./sendNotify') : '';
