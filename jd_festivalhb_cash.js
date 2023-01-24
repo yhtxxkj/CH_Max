@@ -9,7 +9,7 @@ a3595d5c3b107a912ba368b3ebc70ffa  1元
 e55648727819d44b09a414aa99c10b48  0.38元
 559967f159d4fbd39d58bbd690875fc8  0.3元
 */
-let id='a3595d5c3b107a912ba368b3ebc70ffa';//一元
+let id='e55648727819d44b09a414aa99c10b48';//一元
 const $ = new Env('特价版团圆现金提现');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
