@@ -1,6 +1,6 @@
 /*
 领2-5个能量棒
-0 0 0 12 * https://raw.githubusercontent.com/yhtxxkj/CH_Max/main/jd_joy_energy.js
+0 10 13 * * https://raw.githubusercontent.com/yhtxxkj/CH_Max/main/jd_joy_energy.js
 updatetime: 2023/1/14
 */
 
