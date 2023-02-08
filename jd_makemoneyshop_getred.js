@@ -1,5 +1,5 @@
 /*
-赚钱大赢家兑换50
+特价版大赢家自定义兑换红包
 
 58 59 23 * * * jd_makemoneyshop_getred.js
 默认换50，可改id
@@ -12,8 +12,8 @@
 全部ck并发 task jd_makemoneyshop_reward.js conc JD_COOKIE
 指定某个ck或者某些ck task jd_fruit.js desi JD_COOKIE 1 或者 task jd_fruit.js desi JD_COOKIE 1-5
 */
-let redid="8609ec76a8a70db9a5443376d34fa26a";//兑换50元
-const $ = new Env("大赢家兑50红包");
+let redid="b141ddd915d20f078d69f6910b02a60a";//兑换50元
+const $ = new Env("特价版大赢家自定义兑换红包");
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
