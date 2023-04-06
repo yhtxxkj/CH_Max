@@ -4,7 +4,7 @@
 执行流程，前5ck输出助力码--助力--抽奖--检查提现
 前5个ck做车头，不知道多少助力满,变量CXJTOP='10'
 多少助力换下一个，默认50个 ，可调整变量CXJNUM='100';
-1 1 1 1 * https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_cxjhelp.js
+6 6 6 6 * https://raw.githubusercontent.com/yhtxxkj/CH_Max/main/jd_cxjhelp.js
 updatetime:2023/4/6
  */
 
