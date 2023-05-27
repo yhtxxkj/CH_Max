@@ -40,6 +40,7 @@ module.exports.getEnvs = async () => {
   }).json();
   return body.data;
 };
+
 module.exports.getEnvsCount = async () => {
   const data = await this.getEnvs();
   return data.length;
@@ -98,6 +99,22 @@ module.exports.updateEnv11 = async (cookie, eid, remarks) => {
       id: eid,
       remarks,
     },
+    headers: {
+      Accept: 'application/json',
+      authorization: `Bearer ${token}`,
+      'Content-Type': 'application/json;charset=UTF-8',
+    },
+  }).json();
+  return body;
+};
+
+module.exports.DisableCk = async (eid) => {
+  const token = await getToken();
+  const body = await api({
+    method: 'put',
+    url: 'api/envs/disable',
+    params: { t: Date.now() },	
+    body: JSON.stringify([eid]),
     headers: {
       Accept: 'application/json',
       authorization: `Bearer ${token}`,
